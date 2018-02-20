@@ -4,3 +4,12 @@ Niniejszy projekt ma na celu dokonywanie predykcji stężenia zanieczyszczeń dl
 
 ![image](https://user-images.githubusercontent.com/18016435/36421637-8ee81c4c-1639-11e8-8232-fae066921508.png)
 
+![image](https://user-images.githubusercontent.com/18016435/36421904-8ac6c432-163a-11e8-8ee5-8585e013c1a5.png)
+
+![image](https://user-images.githubusercontent.com/18016435/36421913-91da4aa0-163a-11e8-8b59-a48fc8931db3.png)
+
+![image](https://user-images.githubusercontent.com/18016435/36421920-9774f348-163a-11e8-95ef-58e8d6dae314.png)
+
+![image](https://user-images.githubusercontent.com/18016435/36421932-9e304ec6-163a-11e8-9209-c406b3f80084.png)
+
+
