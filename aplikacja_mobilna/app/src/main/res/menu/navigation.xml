@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/station1"
+        android:title="Wokalna 1"
+        android:icon="@drawable/one"
+    />
+
+    <item android:id="@+id/station2"
+        android:title="Marszałkowska 68"
+        android:icon="@drawable/two"
+    />
+
+    <item android:id="@+id/station3"
+        android:title="Aleja Niepodległości 227/223"
+        android:icon="@drawable/three"
+    />
+
+    <item android:id="@+id/station4"
+        android:title="Wierzejewskiego 12"
+        android:icon="@drawable/four"
+        />
+
+    <item android:id="@+id/station5"
+        android:title="Brzozowa 2"
+        android:icon="@drawable/five"
+        />
+
+    <item android:id="@+id/station6"
+        android:title="Stacja najbliższa mnie"
+        android:icon="@drawable/six"
+        />
+</menu>

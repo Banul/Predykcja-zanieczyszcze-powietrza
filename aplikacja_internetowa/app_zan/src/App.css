@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.yAxis .recharts-layer.recharts-cartesian-axis-tick text{
+  transform: translate(2px, 0);
+}
+

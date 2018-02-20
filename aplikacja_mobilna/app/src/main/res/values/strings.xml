@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppZan</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="map_normal">mapa normalna</string>
+    <string name="map_sattelite">mapa satelitarna</string>
+    <string name="tracking_mode">tryb śledzenia</string>
+</resources>

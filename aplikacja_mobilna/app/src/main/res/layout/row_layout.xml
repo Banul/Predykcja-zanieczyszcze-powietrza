@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="274dp">
+
+
+        <TextView
+            android:id="@+id/DateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="81dp"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="Data : " />
+
+        <TextView
+            android:id="@+id/DateVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/DateText"
+            android:layout_marginLeft="10dp"
+            android:textSize="12sp"
+            android:layout_toEndOf="@+id/DateText" />
+
+        <TextView
+            android:id="@+id/PM10Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/StezeniePylowText"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:text="PM10 :" />
+
+        <TextView
+            android:id="@+id/PM10Val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/PM10Text"
+            android:layout_marginLeft="3dp"
+            android:textSize="12sp"
+            android:layout_toEndOf="@id/PM10Text" />
+
+        <TextView
+            android:id="@+id/PM25Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/PM10Text"
+            android:layout_below="@+id/PM10Text"
+            android:layout_marginTop="27dp"
+            android:textSize="12sp"
+            android:text="PM2.5 :" />
+
+        <TextView
+            android:id="@+id/PM25Val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/PM25Text"
+            android:layout_marginLeft="3dp"
+            android:textSize="12sp"
+            android:layout_toEndOf="@+id/PM25Text" />
+
+        <TextView
+            android:id="@+id/CoStanowiText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/PM10Val"
+            android:layout_marginStart="25dp"
+            android:layout_toEndOf="@+id/miligramyTekstPM10"
+            android:textSize="12sp"
+            android:text="(" />
+
+        <TextView
+            android:id="@+id/CoStanowiVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/CoStanowiText"
+            android:layout_marginStart="5dp"
+            android:textSize="12sp"
+            android:layout_toEndOf="@+id/CoStanowiText" />
+
+        <TextView
+            android:id="@+id/ProcNormyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/CoStanowiVal"
+            android:layout_alignBottom="@+id/CoStanowiVal"
+            android:textSize="12sp"
+            android:layout_marginStart="2dp"
+            android:layout_toEndOf="@+id/CoStanowiVal"
+            android:text="% normy" />
+
+        <TextView
+            android:id="@+id/CoStanowiText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/PM25Val"
+            android:layout_marginStart="25dp"
+            android:textSize="12sp"
+            android:layout_toEndOf="@+id/miligramyTekstPM10"
+            android:text="(" />
+
+        <TextView
+            android:id="@+id/CoStanowiVal2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/CoStanowiText2"
+            android:layout_marginStart="5dp"
+            android:textSize="12sp"
+            android:layout_toEndOf="@+id/CoStanowiText2" />
+
+        <TextView
+            android:id="@+id/ProcNormyText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/CoStanowiVal2"
+            android:layout_alignBottom="@+id/CoStanowiVal2"
+            android:layout_marginStart="2dp"
+            android:layout_toEndOf="@+id/CoStanowiVal2"
+            android:textSize="12sp"
+            android:text="% normy" />
+
+        <TextView
+            android:id="@+id/StezeniePylowText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Stężenie pyłów:"
+            android:layout_below="@+id/DateText"
+            android:textSize="12sp"
+            android:layout_toEndOf="@+id/DateText" />
+
+        <TextView
+            android:id="@+id/PogodaText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pogoda :"
+            android:layout_marginTop="5px"
+            android:layout_below="@+id/pm25Image"
+            android:textSize="12sp"
+            android:layout_alignStart="@+id/celcjusz" />
+
+        <TextView
+            android:id="@+id/WarunkiText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/PM25Text"
+            android:layout_below="@+id/PogodaText"
+            android:textSize="12sp"
+            android:layout_marginTop="15dp"
+            android:text="warunki :" />
+
+        <TextView
+            android:id="@+id/TemperaturaText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/WarunkiText"
+            android:layout_below="@+id/WarunkiText"
+            android:textSize="12sp"
+            android:layout_marginTop="26dp"
+            android:text="temperatura :" />
+
+        <TextView
+            android:id="@+id/WarunkiVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/WarunkiText"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/WarunkiText"
+            android:textSize="12sp"
+            android:layout_toStartOf="@+id/ProcNormyText" />
+
+        <TextView
+            android:id="@+id/TemperaturaVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/TemperaturaText"
+            android:layout_marginStart="5dp"
+            android:textSize="12sp"
+            android:layout_toEndOf="@id/TemperaturaText" />
+
+        <TextView
+            android:id="@+id/CisnienieText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TemperaturaText"
+            android:layout_toEndOf="@id/WarunkiVal"
+            android:layout_marginStart="5dp"
+            android:textSize="12sp"
+            android:text="ciśnienie :" />
+
+        <TextView
+            android:id="@+id/SilaWiatruText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/CisnienieText"
+            android:layout_alignTop="@+id/TemperaturaText"
+            android:layout_marginStart="0dp"
+            android:textSize="12sp"
+            android:text="siła wiatru :" />
+
+        <TextView
+            android:id="@+id/CisnienieVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/CisnienieText"
+            android:layout_marginStart="5dp"
+            android:textSize="12sp"
+            android:layout_toEndOf="@id/CisnienieText" />
+
+        <TextView
+            android:id="@+id/SilaVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/SilaWiatruText"
+            android:layout_marginStart="5dp"
+            android:textSize="12sp"
+            android:layout_toEndOf="@id/SilaWiatruText" />
+
+        <ImageView
+            android:id="@+id/pm10Image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_toEndOf="@+id/textView8"
+            android:layout_alignTop="@id/textView8"
+            android:layout_marginStart="40dp"
+            app:srcCompat="@drawable/zlepowietrze" />
+
+        <ImageView
+            android:id="@+id/pm25Image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignStart="@+id/pm10Image"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/zlepowietrze" />
+
+        <TextView
+            android:id="@+id/miligramyTekstPM10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/CoStanowiText"
+            android:layout_alignTop="@+id/CoStanowiText"
+            android:layout_marginStart="3dp"
+            android:textSize="12sp"
+            android:layout_toEndOf="@+id/PM10Val"
+            android:text="ug/m^3" />
+
+        <TextView
+            android:id="@+id/miligramyTekstPM25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/CoStanowiText2"
+            android:layout_marginStart="3dp"
+            android:textSize="12sp"
+            android:layout_toEndOf="@+id/PM25Val"
+            android:text="ug/m^3" />
+
+        <TextView
+            android:id="@+id/celcjusz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/TemperaturaVal"
+            android:layout_marginStart="3dp"
+            android:textSize="12sp"
+            android:layout_toEndOf="@id/TemperaturaVal"
+            android:text="°C" />
+
+        <TextView
+            android:id="@+id/hPaText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/CisnienieVal"
+            android:layout_marginStart="3dp"
+            android:textSize="12sp"
+            android:layout_toEndOf="@+id/CisnienieVal"
+            android:text="hPa" />
+
+        <TextView
+            android:id="@+id/msText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/SilaVal"
+            android:layout_marginStart="3dp"
+            android:textSize="12sp"
+            android:layout_toEndOf="@id/SilaVal"
+            android:text="km/h" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ProcNormyText"
+            android:layout_marginStart="2dp"
+            android:textSize="12sp"
+            android:layout_toEndOf="@id/ProcNormyText"
+            android:text=")" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ProcNormyText2"
+            android:layout_marginStart="2dp"
+            android:textSize="12sp"
+            android:layout_toEndOf="@id/ProcNormyText2"
+            android:text=")" />
+
+
+        <TextView
+            android:id="@+id/predykcjaText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:layout_toEndOf="@+id/DateVal"
+            android:layout_marginStart="10dp"
+            android:layout_alignTop="@+id/DateVal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#d1d1e0" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

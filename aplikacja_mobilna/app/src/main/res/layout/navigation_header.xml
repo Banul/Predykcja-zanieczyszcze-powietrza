@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Wybierz stację"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:id="@+id/OdleglosciText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="15dp"
+        android:text="Odległości od stacji :"
+        android:textSize="14dp"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/WokalnaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/OdleglosciText"
+        android:layout_marginTop="15dp"
+        android:text="Wokalna :"
+        android:textSize="14dp"
+        android:textColor="@android:color/background_light"
+        />
+
+    <TextView
+        android:id="@+id/WokalnaVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/WokalnaText"
+        android:layout_marginStart="5dp"
+        android:layout_alignTop="@+id/WokalnaText"
+        android:textColor="@android:color/background_light"
+
+        />
+
+    <TextView
+        android:id="@+id/MarszalkowskaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/WokalnaText"
+        android:layout_marginTop="15dp"
+        android:text="Marszałkowska :"
+        android:textSize="14dp"
+        android:textColor="@android:color/background_light"
+
+        />
+
+    <TextView
+        android:id="@+id/MarszalkowskaVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/MarszalkowskaText"
+        android:layout_marginStart="5dp"
+        android:layout_alignTop="@+id/MarszalkowskaText"
+        android:textColor="@android:color/background_light"
+
+        />
+
+    <TextView
+        android:id="@+id/NiepodleglosciText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/MarszalkowskaText"
+        android:layout_marginTop="15dp"
+        android:text="Aleja Niepodległości :"
+        android:textSize="14dp"
+        android:textColor="@android:color/background_light"
+
+        />
+
+    <TextView
+        android:id="@+id/NiepodleglosciVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/NiepodleglosciText"
+        android:layout_marginStart="5dp"
+        android:layout_alignTop="@+id/NiepodleglosciText"
+        android:textColor="@android:color/background_light"
+
+        />
+
+    <TextView
+        android:id="@+id/WierzejewskiegoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/NiepodleglosciText"
+        android:layout_marginTop="15dp"
+        android:text="Wierzejewskiego :"
+        android:textSize="14dp"
+        android:textColor="@android:color/background_light"
+
+        />
+
+    <TextView
+        android:id="@+id/WierzejewskiegoVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/WierzejewskiegoText"
+        android:layout_marginStart="5dp"
+        android:layout_alignTop="@+id/WierzejewskiegoText"
+        android:textColor="@android:color/background_light"
+
+        />
+
+    <TextView
+        android:id="@+id/BrzozowaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/WierzejewskiegoText"
+        android:layout_marginTop="15dp"
+        android:text="Brzozowa :"
+        android:textSize="14dp"
+        android:textColor="@android:color/background_light"
+        />
+
+    <TextView
+        android:id="@+id/BrzozowaVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/BrzozowaText"
+        android:layout_marginStart="5dp"
+        android:layout_alignTop="@+id/BrzozowaText"
+        android:textColor="@android:color/background_light"
+        />
+
+    <TextView
+        android:id="@+id/metrow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/WokalnaVal"
+        android:layout_marginStart="3dp"
+        android:layout_toEndOf="@id/WokalnaVal"
+        android:text="kilometrów"
+        android:textSize="14dp"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/metrow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/MarszalkowskaVal"
+        android:layout_marginStart="3dp"
+        android:layout_toEndOf="@+id/MarszalkowskaVal"
+        android:text="kilometrów"
+        android:textSize="14dp"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/metrow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/NiepodleglosciVal"
+        android:layout_marginStart="3dp"
+        android:layout_toEndOf="@+id/NiepodleglosciVal"
+        android:text="kilometrów"
+        android:textSize="14dp"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/metrow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/WierzejewskiegoVal"
+        android:layout_marginStart="3dp"
+        android:layout_toEndOf="@id/WierzejewskiegoVal"
+        android:text="kilometrów"
+        android:textSize="14dp"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/metrow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/BrzozowaVal"
+        android:layout_marginStart="3dp"
+        android:layout_toEndOf="@id/BrzozowaVal"
+        android:text="kilometrów"
+        android:textSize="14dp"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/pokazNaMapieButon"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Pokaż mapę"
+        android:textSize="14dp"
+        android:layout_above="@+id/metrow2"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/reactAppButton"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/pokazNaMapieButon"
+        android:text="Pokaż wykresy"
+        android:textSize="14dp"
+        />
+
+</RelativeLayout>
