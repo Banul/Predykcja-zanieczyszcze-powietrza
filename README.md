@@ -15,6 +15,6 @@ Niniejszy projekt ma na celu dokonywanie predykcji stężenia zanieczyszczeń dl
 Skrypty na maszynie wirtualnej odpalają się co godzinę, a dane ściągane są z serwerów GIOŚ oraz wunderground.com. 
 Aplikacja internetowa: http://banul.com.s3-website.eu-central-1.amazonaws.com/
 
-Aplikacja poleca się osobom, które nie wygrały płuc na loterii.
+Aplikację poleca się osobom, które nie wygrały płuc na loterii :)
 
 
